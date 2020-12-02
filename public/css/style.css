@@ -1,17 +1,55 @@
 body{
-  background-color: rgba(100 ,10, 100, 0.1);
+  border: 50px solid #C42847;
+  margin: 0px;
+  /*background-color: #0B0500;*/
+  /*background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9unJ5srEOm_mvIS27SOzg91pQCAaNOtnR4w&usqp=CAU);*/
+  height: 1000px;
+  font-family: 'Acme', sans-serif;
+  font-family: 'Bree Serif', serif;
 }
 
-h1.heading{
-    color: teal;
+.demo h1{
+    color: #C42847;
     text-align: center;
     font-size: 40px;
+    font-family: 'Bree Serif', serif;
+    opacity: 0.999;
 }
 
+.demo button{
+  opacity: 0.999;
+  border-radius: 20px;
+  background-color:  #C42847;
+  height: 60px;
+  width: 150px;
+  font-size: 2em;
+  margin-left: 40%;
+  font-family: 'Acme', sans-serif;
+  font-family: 'Bree Serif', serif;
+  border: 100px;
+  margin-bottom: 100%
+}
+
+.demo img{
+  position: absolute;
+  opacity: 0.7;
+    left: 50px;
+    right: 50px;
+    top: 50px;
+    bottom: 50px;
+    width: 100%;
+    height: 1000px;
+}
+
+
+
 input[type="text"]{
+    margin-left: 20px;
     border: none;
     background: transparent;
     font-size: 20px;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Bree Serif', serif;
 }
 
 p{
@@ -20,8 +58,4 @@ p{
   margin-top: -20px;
 }
 
-.add{
-  border-radius: 50%;
-  font-size: 20px;
-  margin-left: 50%;
-}
+
